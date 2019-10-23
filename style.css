@@ -72,7 +72,7 @@ i .fa-address-card{
     display: inline-block;
     transform: rotate(-25deg);
 }
-.fa-address-card{           /*inscription*/
+.fa-laptop{           /*inscription*/
     font-size: 3vh;
     margin-right: 3%;
     margin-top: 3.3vh;
@@ -80,13 +80,14 @@ i .fa-address-card{
     float: right;
     display: inline-block;
 }
+
 .C{font-family: 'Montserrat', sans-serif, sans-serif; font-size:1.5vh;color:white;}
 .C:hover{color: rgba(171, 0, 20, 0.7);transition: color 0.5s;}
-.C:active{transform: scale(0.8,0.8);}
-.fa-address-card:active{transform: scale(0.8,0.8);}
-.fa-address-card:hover{color: rgba(171, 0, 20, 0.7);transition: color 0.7s;}
 
-.fa-connectdevelop{             /*connection*/
+.fa-internet-explorer:hover{color: rgba(171, 0, 20, 0.7);transition: color 0.7s;}
+.fa-laptop:hover{color: rgba(171, 0, 20, 0.7);transition: color 0.7s;}
+
+.fa-internet-explorer{             /*connection*/
     font-size: 3vh;
     margin-top: 3.3vh;
     margin-right: 19%;
