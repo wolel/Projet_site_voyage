@@ -60,6 +60,93 @@ i .fa-address-card{
     height: 100vh;
     margin-top: 0;
 }
+    /* Slider */
+.img
+{
+    display: inline-block;
+    float: left;
+    background: #2c75ff;
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 70%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.zoom-out
+{
+    border: 1px solid white;
+    transform: scale(1);
+    transition: .4s ease-in-out;
+}
+
+.zoom-out:hover
+{
+    transform: scale(0.95);
+}
+
+.img-haut-g
+{
+    float: left;
+    width: 50%;
+    height: 50vh;
+}
+
+.img-haut-d
+{
+    float: right;
+    width: 49.4%;
+    height: 50vh;
+}
+
+.img-bas
+{
+    width: 100%;
+    height: 50vh;
+}
+
+figure
+{
+    display: inline-block;
+    margin: 0;
+}
+    /*** SLIDER ***/
+
+
+    div#slider img
+    {
+        border-left: none;
+        border-right: none;
+        width: 20%;
+        height: auto;
+        float: left;
+    }
+
+    div#slider
+    {
+        clear: both;
+        position: relative;
+        width: 500%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+        left: 0;
+        text-align: left;
+        animation: 20s slidy infinite;
+        height: 100%;
+    }
+
+    @keyframes slidy
+    {
+        0% { left: 0; }
+        20% { left: 0; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        100% { left: -300%; }
+    }
     /*PICTOGRAMMES*/
 
 .fa-plane{                   /*avion*/
